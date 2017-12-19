@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Waterfly</string>
+
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_email_registered">This email address registered</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+
+    <string name="customer">Customer</string>
+    <string name="clerk">Clerk</string>
+
+    <string name="action_next">Next</string>
+
+    <!-- Strings related to Sign in -->
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+
+    <!-- Strings related to Sign up -->
+    <string name="title_activity_register">Customer registration</string>
+    <string name="action_register">Customer registration</string>
+    <string name="action_sign_up_short">Sign up</string>
+
+
+    <string name="prompt_first_name">First name</string>
+    <string name="prompt_middle_name">Middle name</string>
+    <string name="prompt_last_name">Last name</string>
+    <string name="prompt_address">Address</string>
+    <string name="prompt_province">Province</string>
+    <string name="prompt_city">City</string>
+    <string name="prompt_postal_code">Postal code</string>
+
+    <string name="title_activity_orders">Orders</string>
+    <string name="title_activity_products">Products</string>
+    <string name="title_activity_customers">Customers</string>
+
+    <string name="text_delete_order_but">×</string>
+    <string name="statustv_text">statusTV</string>
+    <string name="datetv_text">dateTV</string>
+    <string name="pricetv_text">priceTV</string>
+    <string name="categorytv_text">categoryTV</string>
+    <string name="nametv_text">nameTV</string>
+    <string name="nametv_title">Title:</string>
+
+    <string name="categorytv_title">Category:</string>
+    <string name="pricetv_title">Price:</string>
+    <string name="datetv_title">Date:</string>
+    <string name="statustv_title">Status:</string>
+    <string name="availabletv_title">Available:</string>
+    <string name="availabletv_text">availableTV</string>
+    <string name="postal_code_title">Postal code:</string>
+    <string name="city_title">City:</string>
+    <string name="province_title">Province:</string>
+    <string name="address_title">Address:</string>
+
+
+    <string name="last_name_title">Last name:</string>
+    <string name="first_name_title">First name:</string>
+    <string name="email_title">Email:</string>
+    <string name="postalcodetv_text">postalCodeTV</string>
+    <string name="citytv_text">cityTV</string>
+    <string name="provincetv_text">provinceTV</string>
+    <string name="addresstv_text">addressTV</string>
+    <string name="lastnametv_text">lastNameTV</string>
+    <string name="firstnametv_text">firstNameTV</string>
+    <string name="emailtv_text">emailTV</string>
+
+    <string name="message_no_available">No available</string>
+    <string name="message_order_added">Order added</string>
+    <string name="message_order_delivered">Order delivered</string>
+    <string name="message_order_updated">Status updated</string>
+    <string name="message_registration_complete">Registration complete</string>
+    <string name="message_incorrect_login_pass">Incorrect email or password</string>
+    <string name="text_add_order_but">+</string>
+
+
+</resources>

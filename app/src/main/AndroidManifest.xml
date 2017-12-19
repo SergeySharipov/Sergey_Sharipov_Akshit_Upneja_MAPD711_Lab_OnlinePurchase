@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ca.akshit.and.sergey.sergey_sharipov_akshit_upneja_mapd711_lab_onlinepurchase">
+
+    <application
+        android:name=".util.App"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".controller.LoginActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".controller.RegisterActivity"
+            android:parentActivityName=".controller.LoginActivity"
+            android:label="@string/title_activity_register" />
+        <activity android:name=".controller.ProductsActivity"
+            android:parentActivityName=".controller.LoginActivity"
+            android:label="@string/title_activity_products"/>
+        <activity android:name=".controller.OrdersActivity"
+            android:label="@string/title_activity_orders"/>
+        <activity android:name=".controller.CustomersActivity"
+            android:parentActivityName=".controller.LoginActivity"
+            android:label="@string/title_activity_customers"/>
+
+    </application>
+
+</manifest>
